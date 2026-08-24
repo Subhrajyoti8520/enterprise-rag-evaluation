@@ -155,15 +155,27 @@ enterprise-rag-evaluation
 │           ├── trace_attribution.png
 │           └── evaluation_metrics.png
 │
-├── docker-compose.yml       # Multi-container orchestration
-├── Dockerfile               # Application environment specification
-└── requirements.txt         # Manage Python project dependencies
+├── docker-compose.yml            # Multi-container orchestration
+├── Dockerfile                    # Application environment specification
+├── .gitignore                    # Standard git ignores
+├── requirements.txt              # Manage Python project dependencies
+└── README.md                     # Master architectural & deployment documentation
 
 ```
 ---
 
-### 📸 UI & Trace Attribution Gallery
-All visual assets and execution screenshots for the dashboard, engine telemetry, and evaluation metrics are located in [02_enterprise_production_rag/assets/screenshots/](02_enterprise_production_rag/assets/screenshots/).
+## 📸 UI & Trace Attribution Gallery
+
+All visual assets and execution screenshots for the dashboard, engine telemetry, and evaluation metrics are located in [`./02_enterprise_production_rag/assets/screenshots/`](./02_enterprise_production_rag/assets/screenshots).
+
+| Dashboard Overview | Trace Attribution Telemetry |
+| :---: | :---: |
+| <img src="./02_enterprise_production_rag/assets/screenshots/ui_dashboard.png" width="450" alt="UI Dashboard" /> | <img src="./02_enterprise_production_rag/assets/screenshots/trace_attribution.png" width="450" alt="Trace Attribution" /> |
+
+| Engine Controls | Evaluation Metrics |
+| :---: | :---: |
+| <img src="./02_enterprise_production_rag/assets/screenshots/engine_controls.png" width="450" alt="Engine Controls" /> | <img src="./02_enterprise_production_rag/assets/screenshots/evaluation_metrics.png" width="450" alt="Evaluation Metrics" /> |
+---
 
 ### 🛠️ Quickstart (Windows / Linux)
 
