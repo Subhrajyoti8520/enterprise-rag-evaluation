@@ -1,0 +1,3 @@
+query,faithfulness,answer_relevancy,context_precision,is_grounded_flag,retrieval_latency_sec,generation_latency_sec,total_latency_sec
+What factors drove NVIDIA's data center revenue growth?,1.0,0.0,0.0,False,5.769,4.426,69.725
+What are the primary operational risk factors mentioned in Apple's filings?,1.0,0.7086,0.0,True,5.428,4.0,68.451
