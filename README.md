@@ -117,7 +117,9 @@ graph LR
 | **Response Synthesis** | Unstructured Strings | Strict Pydantic Models | Gemini 3.5 Beta API forces structured JSON outputs ensuring `is_grounded` boolean flags and exact source citations are tracked. |
 | **Latency Optimization**| Synchronous notebook cells | Async FastAPI + Model Caching | Models are cached locally via Docker volumes and loaded into global app state at server boot. Tasks are offloaded via `asyncio.to_thread`. |
 
-### 📁 Repository Structure
+---
+
+## 📁 Repository Structure
 
 ```text
 enterprise-rag-evaluation
