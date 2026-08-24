@@ -159,6 +159,7 @@ enterprise-rag-evaluation
 ├── Dockerfile                    # Application environment specification
 ├── .gitignore                    # Standard git ignores
 ├── requirements.txt              # Manage Python project dependencies
+├── architecture_complete.jpg     # Dual-core system: laboratory to production runtime
 └── README.md                     # Master architectural & deployment documentation
 
 ```
