@@ -7,7 +7,7 @@
 [![Eval](https://img.shields.io/badge/Evaluation-RAGAS-FFBE00.svg)](https://docs.ragas.io/)
 [![Deployment](https://img.shields.io/badge/Deployment-Docker%20Compose-2496ED.svg)](https://www.docker.com/)
 
-A production-grade, two-stage Retrieval-Augmented Generation (RAG) architecture built to parse, retrieve, and synthesize financial insights from SEC 10-K reports using the [`virattt/financial-qa-10K`](https://huggingface.co/datasets/virattt/financial-qa-10K) dataset.
+A production-style, two-stage Retrieval-Augmented Generation (RAG) architecture built to parse, retrieve, and synthesize financial insights from SEC 10-K reports using the [`virattt/financial-qa-10K`](https://huggingface.co/datasets/virattt/financial-qa-10K) dataset.
 
 This repository demonstrates the transition from theoretical AI research to highly scalable backend ML systems. It pairs a mathematical evaluation sandbox with an asynchronous, containerized REST API, bypassing bloated frameworks in favor of custom, deterministic, and highly optimized Python architectures powered by Gemini Flash and local BAAI embedding models.
 
